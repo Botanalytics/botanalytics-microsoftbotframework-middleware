@@ -1,6 +1,6 @@
 {
   "name": "botanalytics-microsoftbotframework-middleware",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Microsoft BotBuilder Middleware for Botanalytics",
   "main": "index.js",
   "repository": {
