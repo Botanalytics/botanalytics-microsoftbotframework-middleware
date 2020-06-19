@@ -14,7 +14,7 @@ module.exports = function(credentials) {
   }
   function sendToBotanalytics(session,is_sender_bot,next) {
          request({
-            url: 'https://botanalytics.co/api/v1/messages/microsoft-bot-framework/',
+            url: 'https://api.botanalytics.co/v1/microsoft-bot-framework/messages/',
             body: JSON.stringify({message: session,
             timestamp:new Date().getTime(),
             is_sender_bot:is_sender_bot}),
